@@ -5,12 +5,12 @@ export function Hero() {
     <section className="hero" id="inicio">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <p className="intro">Ola, eu sou</p>
-          <h1>Thalita Goncalves</h1>
-          <p className="hero-role">Analista de Experiencia | Conteudo e Estrategia</p>
+          <p className="intro">Olá, eu sou</p>
+          <h1>Thalita Gonçalves</h1>
+          <p className="hero-role">Analista de Experiência | Conteúdo e Estratégia</p>
           <p className="hero-text">
-            Transformo dados, conteudo e inteligencia artificial em experiencias
-            digitais mais simples, acessiveis e eficientes.
+            Transformo dados, conteúdo e inteligência artificial em experiências
+            digitais mais simples, acessíveis e eficientes.
           </p>
           <div className="badge-row" aria-label="Destaques">
             <span>Programa PRAD</span>
@@ -20,13 +20,13 @@ export function Hero() {
             Vamos conversar
           </a>
         </div>
-        <div className="hero-visual" aria-label="Imagem de Thalita Goncalves">
+        <div className="hero-visual" aria-label="Imagem de Thalita Gonçalves">
           <div className="dot-pattern dot-pattern-one" aria-hidden="true" />
           <div className="dot-pattern dot-pattern-two" aria-hidden="true" />
           <div className="hero-shape" />
           <AssetImage
             src="/images/thalita-hero.png"
-            alt="Retrato ilustrado de Thalita Goncalves"
+            alt="Retrato ilustrado de Thalita Gonçalves"
             className="hero-image"
             fallback={<span>TG</span>}
           />

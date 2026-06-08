@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Thalita Goncalves | Portfolio",
+  title: "Thalita Gonçalves | Portfólio",
   description:
-    "Portfolio profissional de Thalita Goncalves, Analista de Experiencia, Conteudo e Estrategia.",
+    "Portfólio profissional de Thalita Gonçalves, Analista de Experiência, Conteúdo e Estratégia.",
 };
 
 export default function RootLayout({

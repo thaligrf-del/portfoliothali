@@ -1,14 +1,14 @@
 export const supportCards = [
-  "+10 anos de experiencia",
-  "Diversas areas: Produto, Credito, Cobranca, Atendimento e E-commerce",
-  "Foco continuo: Pessoas, dados e tecnologia a servico do melhor resultado",
+  "+10 anos de experiência",
+  "Diversas áreas: Produto, Crédito, Cobrança, Atendimento e E-commerce",
+  "Foco contínuo: Pessoas, dados e tecnologia a serviço do melhor resultado",
 ];
 
 export const valueList = [
-  "Conteudo e Estrategia",
+  "Conteúdo e Estratégia",
   "UX Writing e Content Design",
   "Pesquisa e Testes",
-  "IA Generativa e Automacao",
+  "IA Generativa e Automação",
   "Foco em impacto",
 ];
 
@@ -25,11 +25,11 @@ export const skills = [
   "Copilot",
   "Figma",
   "Miro",
-  "Analise de Dados",
-  "Comunicacao",
+  "Análise de Dados",
+  "Comunicação",
   "Storytelling",
-  "Pensamento Estrategico",
-  "Colaboracao",
+  "Pensamento Estratégico",
+  "Colaboração",
 ];
 
 type PortfolioCase = {
@@ -43,6 +43,7 @@ type PortfolioCase = {
   path: string;
   detailResult: string;
   extras?: string;
+  externalUrl?: string;
   showChatCta?: boolean;
 };
 
@@ -50,34 +51,36 @@ export const cases: PortfolioCase[] = [
   {
     number: "01",
     slug: "case-emprestimo-pessoal",
-    title: "+5% na Producao de Emprestimo Pessoal",
-    subtitle: "Mais clareza para o cliente, mais valor para o negocio.",
+    title: "+5% na Produção de Empréstimo Pessoal",
+    subtitle: "Mais clareza para o cliente, mais valor para o negócio.",
     summary:
-      "Pesquisa quantitativa, UX Writing e testes A/B para melhorar a compreensao da jornada de credito.",
-    result: "R$ 2,5 milhoes impactados",
+      "Pesquisa quantitativa, UX Writing e testes A/B para melhorar a compreensão da jornada de crédito.",
+    result: "R$ 2,5 milhões impactados",
     challenge:
-      "Compreender se clientes saiam da jornada de Emprestimo Pessoal por nao entenderem o valor a pagar.",
+      "Compreender se clientes saíam da jornada de Empréstimo Pessoal por não entenderem o valor a pagar.",
     path:
       "Pesquisa quantitativa com clientes sobre a literal Total a Pagar, testes A/B na plataforma IU Experimenta com literais levantadas com clientes e time de Produto.",
     detailResult:
-      "Aumento de quase 1% na conversao em 3 semanas de teste. Aumento de quase 5% na producao de Emprestimo Pessoal, refletindo em aproximadamente R$ 2,5 milhoes no mesmo periodo.",
+      "Aumento de quase 1% na conversão em 3 semanas de teste. Aumento de quase 5% na produção de Empréstimo Pessoal, refletindo em aproximadamente R$ 2,5 milhões no mesmo período.",
     extras:
-      "Artigo Quem tem medo do Total a Pagar? no Itau Design Team Medium. Apresentacao do case para times de Recuperacao PF e Credito PJ.",
+      "Artigo Quem tem medo do Total a Pagar? no Itaú Design Team Medium. Apresentação do case para times de Recuperação PF e Crédito PJ.",
+    externalUrl:
+      "https://medium.com/itaudesign/quem-tem-medo-do-total-a-pagar-796fa585859b",
   },
   {
     number: "02",
     slug: "case-ia-design",
     title: "IA para Evidenciar Impacto de Design",
-    subtitle: "Dados que conectam Design, Conteudo, Tecnologia e Produto.",
+    subtitle: "Dados que conectam Design, Conteúdo, Tecnologia e Produto.",
     summary:
-      "Uso de IA, Copilot e Figma Make para consolidar entregas, pesquisas e interacoes entre equipes.",
-    result: "3 jornadas mapeadas e 70 interacoes analisadas",
+      "Uso de IA, Copilot e Figma Make para consolidar entregas, pesquisas e interações entre equipes.",
+    result: "3 jornadas mapeadas e 70 interações analisadas",
     challenge:
-      "Expor a contribuicao do time de Design durante as releases em ABL CIV.",
+      "Expor a contribuição do time de Design durante as releases em ABL CIV.",
     path:
-      "Uso de IA para reunir interacoes entre os times de Design, Conteudo, Tecnologia e Produto. Estruturacao com Copilot e Figma Make para gerar um dashboard com fluxos entregues, pesquisas realizadas e media de trocas entre equipes.",
+      "Uso de IA para reunir interações entre os times de Design, Conteúdo, Tecnologia e Produto. Estruturação com Copilot e Figma Make para gerar um dashboard com fluxos entregues, pesquisas realizadas e média de trocas entre equipes.",
     detailResult:
-      "Entrega de aproximadamente 3 jornadas completas com envolvimento da triade Produto, Conteudo e Pesquisa, resultando em cerca de 70 interacoes em media durante a segunda release de 2026.",
+      "Entrega de aproximadamente 3 jornadas completas com envolvimento da tríade Produto, Conteúdo e Pesquisa, resultando em cerca de 70 interações em média durante a segunda release de 2026.",
   },
   {
     number: "03",
@@ -85,14 +88,14 @@ export const cases: PortfolioCase[] = [
     title: "thali.IA",
     subtitle: "Uma agente para falar sobre mim.",
     summary:
-      "Agente digital criada com n8n e OpenAI para apresentar minha trajetoria profissional e habilidades.",
-    result: "Evolucao pratica em automacao e IA generativa",
+      "Agente digital criada com n8n e OpenAI para apresentar minha trajetória profissional e habilidades.",
+    result: "Evolução prática em automação e IA generativa",
     challenge:
-      "Criar uma agente digital para apresentar minha trajetoria profissional de forma simples, objetiva e interativa.",
+      "Criar uma agente digital para apresentar minha trajetória profissional de forma simples, objetiva e interativa.",
     path:
-      "Uso do n8n para estruturar o fluxo da agente, com prompts concisos para promover linguagem simples e uma experiencia facil para quem acessa o portfolio.",
+      "Uso do n8n para estruturar o fluxo da agente, com prompts concisos para promover linguagem simples e uma experiência fácil para quem acessa o portfólio.",
     detailResult:
-      "Aprendizado e amadurecimento pratico nas ferramentas Codex, n8n e ChatGPT.",
+      "Aprendizado e amadurecimento prático nas ferramentas Codex, n8n e ChatGPT.",
     showChatCta: true,
   },
 ];
@@ -100,24 +103,24 @@ export const cases: PortfolioCase[] = [
 export const timeline = [
   {
     period: "2024 - Atual",
-    role: "Designer de Conteudo | Itau Unibanco",
+    role: "Designer de Conteúdo | Itaú Unibanco",
     description:
-      "Atuacao em produtos de credito no aplicativo Itau, conduzindo iniciativas de Content Design, UX Writing, pesquisa, testes A/B e evolucao de jornadas digitais orientadas por dados.",
-    competencies: ["Content Design", "UX Writing", "Pesquisa", "Testes A/B", "Credito", "IA"],
+      "Atuação em produtos de crédito no aplicativo Itaú, conduzindo iniciativas de Content Design, UX Writing, pesquisa, testes A/B e evolução de jornadas digitais orientadas por dados.",
+    competencies: ["Content Design", "UX Writing", "Pesquisa", "Testes A/B", "Crédito", "IA"],
   },
   {
     period: "2021 - 2023",
     role: "UX Writer | Casas Bahia Pay e Bradesco",
     description:
-      "Construcao e evolucao de experiencias digitais para produtos financeiros, atuando em parceria com Produto, Design e Tecnologia.",
-    competencies: ["UX Writing", "Conteudo", "Jornada do Usuario", "Produto"],
+      "Construção e evolução de experiências digitais para produtos financeiros, atuando em parceria com Produto, Design e Tecnologia.",
+    competencies: ["UX Writing", "Conteúdo", "Jornada do Usuário", "Produto"],
   },
   {
     period: "2012 - 2019",
     role: "Analista de Atendimento e Redes Sociais",
     description:
-      "Atuacao em conteudo digital, experiencia do cliente, atendimento e operacoes de e-commerce.",
-    competencies: ["Atendimento", "Redes Sociais", "Conteudo", "E-commerce"],
+      "Atuação em conteúdo digital, experiência do cliente, atendimento e operações de e-commerce.",
+    competencies: ["Atendimento", "Redes Sociais", "Conteúdo", "E-commerce"],
   },
 ];
 

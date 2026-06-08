@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 const navItems = [
-  { label: "Inicio", href: "#inicio" },
+  { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
   { label: "Habilidades", href: "#habilidades" },
   { label: "Impacto", href: "#impacto" },
-  { label: "Evolucao", href: "#evolucao" },
+  { label: "Evolução", href: "#evolucao" },
   { label: "Ferramentas", href: "#ferramentas" },
   { label: "Contato", href: "#contato" },
 ];
@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a className="logo" href="#inicio" aria-label="Thalita Goncalves">
+        <a className="logo" href="#inicio" aria-label="Thalita Gonçalves">
           TG<span>.</span>
         </a>
         <button
@@ -32,7 +32,7 @@ export function Header() {
           <span />
           <span />
         </button>
-        <nav className={isOpen ? "nav nav-open" : "nav"} aria-label="Navegacao principal">
+        <nav className={isOpen ? "nav nav-open" : "nav"} aria-label="Navegação principal">
           {navItems.map((item) => (
             <a key={item.href} href={item.href} onClick={() => setIsOpen(false)}>
               {item.label}
